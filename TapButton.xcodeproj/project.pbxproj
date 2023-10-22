@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FACAE5492AE5B2F3009D740C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAE5482AE5B2F3009D740C /* AppDelegate.swift */; };
+		FACAE54B2AE5B2F3009D740C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAE54A2AE5B2F3009D740C /* SceneDelegate.swift */; };
+		FACAE54D2AE5B2F3009D740C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAE54C2AE5B2F3009D740C /* ViewController.swift */; };
+		FACAE5502AE5B2F3009D740C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACAE54E2AE5B2F3009D740C /* Main.storyboard */; };
+		FACAE5522AE5B2F6009D740C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACAE5512AE5B2F6009D740C /* Assets.xcassets */; };
+		FACAE5552AE5B2F6009D740C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACAE5532AE5B2F6009D740C /* LaunchScreen.storyboard */; };
+		FACAE5602AE5B2F7009D740C /* TapButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAE55F2AE5B2F7009D740C /* TapButtonTests.swift */; };
+		FACAE56A2AE5B2F7009D740C /* TapButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAE5692AE5B2F7009D740C /* TapButtonUITests.swift */; };
+		FACAE56C2AE5B2F7009D740C /* TapButtonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAE56B2AE5B2F7009D740C /* TapButtonUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FACAE55C2AE5B2F7009D740C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACAE53D2AE5B2F3009D740C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACAE5442AE5B2F3009D740C;
+			remoteInfo = TapButton;
+		};
+		FACAE5662AE5B2F7009D740C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACAE53D2AE5B2F3009D740C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACAE5442AE5B2F3009D740C;
+			remoteInfo = TapButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FACAE5452AE5B2F3009D740C /* TapButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACAE5482AE5B2F3009D740C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FACAE54A2AE5B2F3009D740C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FACAE54C2AE5B2F3009D740C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FACAE54F2AE5B2F3009D740C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FACAE5512AE5B2F6009D740C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FACAE5542AE5B2F6009D740C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FACAE5562AE5B2F6009D740C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACAE55B2AE5B2F7009D740C /* TapButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACAE55F2AE5B2F7009D740C /* TapButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapButtonTests.swift; sourceTree = "<group>"; };
+		FACAE5652AE5B2F7009D740C /* TapButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACAE5692AE5B2F7009D740C /* TapButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapButtonUITests.swift; sourceTree = "<group>"; };
+		FACAE56B2AE5B2F7009D740C /* TapButtonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapButtonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FACAE5422AE5B2F3009D740C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACAE5582AE5B2F7009D740C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACAE5622AE5B2F7009D740C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FACAE53C2AE5B2F3009D740C = {
+			isa = PBXGroup;
+			children = (
+				FACAE5472AE5B2F3009D740C /* TapButton */,
+				FACAE55E2AE5B2F7009D740C /* TapButtonTests */,
+				FACAE5682AE5B2F7009D740C /* TapButtonUITests */,
+				FACAE5462AE5B2F3009D740C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FACAE5462AE5B2F3009D740C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FACAE5452AE5B2F3009D740C /* TapButton.app */,
+				FACAE55B2AE5B2F7009D740C /* TapButtonTests.xctest */,
+				FACAE5652AE5B2F7009D740C /* TapButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FACAE5472AE5B2F3009D740C /* TapButton */ = {
+			isa = PBXGroup;
+			children = (
+				FACAE5482AE5B2F3009D740C /* AppDelegate.swift */,
+				FACAE54A2AE5B2F3009D740C /* SceneDelegate.swift */,
+				FACAE54C2AE5B2F3009D740C /* ViewController.swift */,
+				FACAE54E2AE5B2F3009D740C /* Main.storyboard */,
+				FACAE5512AE5B2F6009D740C /* Assets.xcassets */,
+				FACAE5532AE5B2F6009D740C /* LaunchScreen.storyboard */,
+				FACAE5562AE5B2F6009D740C /* Info.plist */,
+			);
+			path = TapButton;
+			sourceTree = "<group>";
+		};
+		FACAE55E2AE5B2F7009D740C /* TapButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				FACAE55F2AE5B2F7009D740C /* TapButtonTests.swift */,
+			);
+			path = TapButtonTests;
+			sourceTree = "<group>";
+		};
+		FACAE5682AE5B2F7009D740C /* TapButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FACAE5692AE5B2F7009D740C /* TapButtonUITests.swift */,
+				FACAE56B2AE5B2F7009D740C /* TapButtonUITestsLaunchTests.swift */,
+			);
+			path = TapButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FACAE5442AE5B2F3009D740C /* TapButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACAE56F2AE5B2F7009D740C /* Build configuration list for PBXNativeTarget "TapButton" */;
+			buildPhases = (
+				FACAE5412AE5B2F3009D740C /* Sources */,
+				FACAE5422AE5B2F3009D740C /* Frameworks */,
+				FACAE5432AE5B2F3009D740C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapButton;
+			productName = TapButton;
+			productReference = FACAE5452AE5B2F3009D740C /* TapButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FACAE55A2AE5B2F7009D740C /* TapButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACAE5722AE5B2F7009D740C /* Build configuration list for PBXNativeTarget "TapButtonTests" */;
+			buildPhases = (
+				FACAE5572AE5B2F7009D740C /* Sources */,
+				FACAE5582AE5B2F7009D740C /* Frameworks */,
+				FACAE5592AE5B2F7009D740C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACAE55D2AE5B2F7009D740C /* PBXTargetDependency */,
+			);
+			name = TapButtonTests;
+			productName = TapButtonTests;
+			productReference = FACAE55B2AE5B2F7009D740C /* TapButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FACAE5642AE5B2F7009D740C /* TapButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACAE5752AE5B2F7009D740C /* Build configuration list for PBXNativeTarget "TapButtonUITests" */;
+			buildPhases = (
+				FACAE5612AE5B2F7009D740C /* Sources */,
+				FACAE5622AE5B2F7009D740C /* Frameworks */,
+				FACAE5632AE5B2F7009D740C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACAE5672AE5B2F7009D740C /* PBXTargetDependency */,
+			);
+			name = TapButtonUITests;
+			productName = TapButtonUITests;
+			productReference = FACAE5652AE5B2F7009D740C /* TapButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FACAE53D2AE5B2F3009D740C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FACAE5442AE5B2F3009D740C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FACAE55A2AE5B2F7009D740C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FACAE5442AE5B2F3009D740C;
+					};
+					FACAE5642AE5B2F7009D740C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FACAE5442AE5B2F3009D740C;
+					};
+				};
+			};
+			buildConfigurationList = FACAE5402AE5B2F3009D740C /* Build configuration list for PBXProject "TapButton" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FACAE53C2AE5B2F3009D740C;
+			productRefGroup = FACAE5462AE5B2F3009D740C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FACAE5442AE5B2F3009D740C /* TapButton */,
+				FACAE55A2AE5B2F7009D740C /* TapButtonTests */,
+				FACAE5642AE5B2F7009D740C /* TapButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FACAE5432AE5B2F3009D740C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACAE5552AE5B2F6009D740C /* LaunchScreen.storyboard in Resources */,
+				FACAE5522AE5B2F6009D740C /* Assets.xcassets in Resources */,
+				FACAE5502AE5B2F3009D740C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACAE5592AE5B2F7009D740C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACAE5632AE5B2F7009D740C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FACAE5412AE5B2F3009D740C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACAE54D2AE5B2F3009D740C /* ViewController.swift in Sources */,
+				FACAE5492AE5B2F3009D740C /* AppDelegate.swift in Sources */,
+				FACAE54B2AE5B2F3009D740C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACAE5572AE5B2F7009D740C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACAE5602AE5B2F7009D740C /* TapButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACAE5612AE5B2F7009D740C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACAE56C2AE5B2F7009D740C /* TapButtonUITestsLaunchTests.swift in Sources */,
+				FACAE56A2AE5B2F7009D740C /* TapButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FACAE55D2AE5B2F7009D740C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FACAE5442AE5B2F3009D740C /* TapButton */;
+			targetProxy = FACAE55C2AE5B2F7009D740C /* PBXContainerItemProxy */;
+		};
+		FACAE5672AE5B2F7009D740C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FACAE5442AE5B2F3009D740C /* TapButton */;
+			targetProxy = FACAE5662AE5B2F7009D740C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FACAE54E2AE5B2F3009D740C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACAE54F2AE5B2F3009D740C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FACAE5532AE5B2F6009D740C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACAE5542AE5B2F6009D740C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FACAE56D2AE5B2F7009D740C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FACAE56E2AE5B2F7009D740C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FACAE5702AE5B2F7009D740C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S372TVB9N8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TapButton/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sd.TapButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FACAE5712AE5B2F7009D740C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S372TVB9N8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TapButton/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sd.TapButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FACAE5732AE5B2F7009D740C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S372TVB9N8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sd.TapButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapButton.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TapButton";
+			};
+			name = Debug;
+		};
+		FACAE5742AE5B2F7009D740C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S372TVB9N8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sd.TapButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapButton.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TapButton";
+			};
+			name = Release;
+		};
+		FACAE5762AE5B2F7009D740C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S372TVB9N8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sd.TapButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TapButton;
+			};
+			name = Debug;
+		};
+		FACAE5772AE5B2F7009D740C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S372TVB9N8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sd.TapButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TapButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FACAE5402AE5B2F3009D740C /* Build configuration list for PBXProject "TapButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACAE56D2AE5B2F7009D740C /* Debug */,
+				FACAE56E2AE5B2F7009D740C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACAE56F2AE5B2F7009D740C /* Build configuration list for PBXNativeTarget "TapButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACAE5702AE5B2F7009D740C /* Debug */,
+				FACAE5712AE5B2F7009D740C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACAE5722AE5B2F7009D740C /* Build configuration list for PBXNativeTarget "TapButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACAE5732AE5B2F7009D740C /* Debug */,
+				FACAE5742AE5B2F7009D740C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACAE5752AE5B2F7009D740C /* Build configuration list for PBXNativeTarget "TapButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACAE5762AE5B2F7009D740C /* Debug */,
+				FACAE5772AE5B2F7009D740C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FACAE53D2AE5B2F3009D740C /* Project object */;
+}
